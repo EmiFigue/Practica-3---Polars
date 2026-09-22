@@ -1,0 +1,21 @@
+# Versiones verificadas en Python 3.14 (no existen wheels de pandas<2.3,
+# numpy<2.3 ni pyarrow<21 para esta version de Python). Ver README.
+#
+# Dependencias usadas por el pipeline:
+#   polars     -> framework de analisis (carga, limpieza, EDA)
+#   numpy      -> media ponderada con np.average y to_numpy()
+#   pandas     -> polars.to_pandas() y graficas de seaborn
+#   pyarrow    -> motor Arrow/parquet requerido por polars y pandas 3
+#   matplotlib -> figuras del EDA
+#   seaborn    -> graficas estadisticas del EDA
+#   jupyter    -> ejecutar el notebook del EDA
+#
+# Retiradas por no usarse: scikit-learn, mlxtend y openpyxl (esta practica
+# no entrena modelos ni lee archivos de Excel).
+polars==1.9.0
+pandas==3.0.6
+pyarrow==25.0.1
+numpy==2.5.3
+matplotlib==3.11.2
+seaborn==0.13.2
+jupyter==1.1.1

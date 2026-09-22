@@ -1,0 +1,6 @@
+variable,nulos_antes,pct_antes,estrategia
+edad_primer_union,96895,92.02,mediana (21.0)
+num_hijos,19190,18.22,mediana (3.0)
+nom_entidad,0,0.0,moda (tlaxcala)
+nivel_escolaridad,0,0.0,moda (a1)
+estado_civil_desc,0,0.0,moda (casada)
