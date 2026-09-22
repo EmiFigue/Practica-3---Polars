@@ -1,9 +1,4 @@
-"""Mapeo de columnas esperadas en el consolidado ENDIREH 2021.
-
-Los nombres fueron verificados contra los encabezados reales del archivo
-`data/data-raw/endireh_2021.csv` (110 127 registros, 24 columnas). Si el
-CSV cambia de nombre en alguna columna, los scripts fallan con un mensaje
-claro indicando la columna faltante (ver `validar_columnas`).
+"""Mapeo de columnas 
 """
 
 COLUMNAS = {
@@ -16,7 +11,7 @@ COLUMNAS = {
     "factor_expansion": "factor_expansion",
 }
 
-# Variables adicionales presentes en el consolidado que se conservan.
+
 COLUMNAS_EXTRA = (
     "cve_entidad",
     "cve_municipio",
@@ -37,8 +32,7 @@ COLUMNAS_EXTRA = (
     "anio_encuesta",
 )
 
-# El consolidado no incluye llave primaria (id_vivienda + id_mujer); solo se
-# pueden eliminar duplicados exactos.
+# eliminar duplicados exactos.
 CLAVE_PRIMARIA = None
 
 VARIABLES_NUMERICAS = ("edad_primer_union", "num_hijos", "factor_expansion")

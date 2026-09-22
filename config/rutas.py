@@ -1,5 +1,3 @@
-"""Rutas absolutas del proyecto ENDIREH 2021 - Practica 3."""
-
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
