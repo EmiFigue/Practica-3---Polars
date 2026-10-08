@@ -2,12 +2,14 @@
 
 ### Notebooks
 
-| Notebook | Contenido 
-| --- | --- | --- |
 | `notebooks/01b_medidas_localizacion.ipynb` | Media, mediana, moda, cuantiles y media ponderada por `factor_expansion`. 
+
 | `notebooks/02b_medidas_variabilidad.ipynb` | Rango, varianza, desviación estándar, coeficiente de variación e IQR. 
+
 | `notebooks/03_medidas_heterogeneidad.ipynb` | Riqueza de categorías, Shannon y Gini-Simpson. 
+
 | `notebooks/04_medidas_concentracion.ipynb` | Curva de Lorenz, Gini territorial ponderado, Gini sobre frecuencias y top-10 de entidades. 
+
 | `notebooks/05_comparacion_gini_entropia.ipynb` | Comparación entre el Gini y los índices de entropía (Shannon / Gini-Simpson). 
 
 
