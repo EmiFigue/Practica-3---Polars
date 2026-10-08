@@ -1,0 +1,11 @@
+{
+  "gini_territorial_ponderado": 0.41905357283144484,
+  "gini_territorial_sin_ponderar": 0.09560141571151934,
+  "gini_categorias_nivel_escolaridad": 0.5198108190244644,
+  "variable_categorica_sintesis": "nivel_escolaridad",
+  "n_entidades": 32,
+  "entidad_top1": "mexico",
+  "prop_top1": 0.15231259112152093,
+  "n_registros_violencia": 19107,
+  "n_registros_totales": 105296
+}
