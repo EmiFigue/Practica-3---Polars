@@ -1,0 +1,10 @@
+{
+  "variable": "nivel_escolaridad",
+  "k": 6,
+  "gini_frecuencias": 0.5198108190244644,
+  "gini_simpson": 0.6133235298350173,
+  "iqv": 0.7359882358020207,
+  "shannon_bits": 1.849858017576307,
+  "shannon_max": 2.584962500721156,
+  "shannon_rel": 0.7156227670847184
+}

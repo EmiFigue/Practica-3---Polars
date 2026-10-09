@@ -1,0 +1,57 @@
+{
+  "nivel_escolaridad": {
+    "k": 6,
+    "gini_simpson": 0.6133235298350173,
+    "iqv": 0.7359882358020207,
+    "shannon_bits": 1.849858017576307,
+    "shannon_max": 2.584962500721156,
+    "shannon_rel": 0.7156227670847184
+  },
+  "tabla_completa": [
+    {
+      "variable": "nom_entidad",
+      "k": 32,
+      "gini_simpson": 0.968702767538154,
+      "iqv": 0.9999512439103525,
+      "shannon": 4.998903950140657,
+      "shannon_max": 5.0,
+      "shannon_rel": 0.9997807900281315
+    },
+    {
+      "variable": "nivel_escolaridad",
+      "k": 6,
+      "gini_simpson": 0.6133235298350173,
+      "iqv": 0.7359882358020207,
+      "shannon": 1.8498580175763069,
+      "shannon_max": 2.584962500721156,
+      "shannon_rel": 0.7156227670847183
+    },
+    {
+      "variable": "estado_civil_desc",
+      "k": 6,
+      "gini_simpson": 0.7456089332820759,
+      "iqv": 0.8947307199384911,
+      "shannon": 2.2180367688219214,
+      "shannon_max": 2.584962500721156,
+      "shannon_rel": 0.8580537505681922
+    },
+    {
+      "variable": "estrato_socioeconomico",
+      "k": 4,
+      "gini_simpson": 0.6428588184243544,
+      "iqv": 0.8571450912324726,
+      "shannon": 1.7146696354704916,
+      "shannon_max": 2.0,
+      "shannon_rel": 0.8573348177352458
+    },
+    {
+      "variable": "sufrio_violencia_pareja",
+      "k": 2,
+      "gini_simpson": 0.29706438965491944,
+      "iqv": 0.5941287793098389,
+      "shannon": 0.6832603345394276,
+      "shannon_max": 1.0,
+      "shannon_rel": 0.6832603345394276
+    }
+  ]
+}
